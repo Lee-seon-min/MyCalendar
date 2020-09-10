@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent" android:gravity="center">
+    <EditText
+        android:background="@null"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_contents"
+        android:hint="제목 입력"/>
+    <LinearLayout
+        android:background="#F7E3A8"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <EditText
+            android:id="@+id/daily_contents"
+            android:textSize="18sp"
+            android:hint="일정을 입력하세요"
+            android:background="@null"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/write_savebtn"
+        android:text="저장하기"
+        android:background="@drawable/editbuttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
